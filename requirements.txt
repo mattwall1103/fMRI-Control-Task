@@ -1,0 +1,32 @@
+This is a list of the dependencies/requirements of PsychoPy copied from https://github.com/psychopy/psychopy/blob/master/setup.py
+
+For more information about installing/configuring PsychoPy, please see: http://psychopy.org/installation.html
+
+ 'numpy', 
+ 'scipy', 
+ 'matplotlib', 
+ 'pandas', 
+ 'pillow',
+ 'wxPython', 
+ 'pyglet', 
+ 'pygame', 
+ 'configobj', 
+ 'pyopengl',
+ 'soundfile', 
+ 'sounddevice',
+ 'python-bidi', 
+ 'cffi',
+ 'future', 
+ 'json_tricks',
+ 'pyosf',
+ 'xlrd', 
+ 'openpyxl',
+ 'pyserial', 
+ 'pyparallel',
+ 'pyyaml', 
+ 'gevent', 
+ 'msgpack-python', 
+ 'psutil', 
+ 'tables', 
+ 'zmq',
+ 'moviepy']
