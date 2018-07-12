@@ -1,0 +1,29 @@
+
+June 2017, Program Authors: Matthew Wall and Jess Harvey-Cox.
+**********************************************************************
+
+This is a program for an fMRI experiment which tests a number of basic sensory and cognitive functions.
+
+Full details of the task can be found in our pre-print on BiorXiv.org; XXXXXXXX
+
+There are two variants of this task. Both contain visual, auditory, and motor trials but one version also includes eye-movement trials, and another includes working-memory trials.
+
+This is the EYE-MOVEMENT variant.
+
+**********************************************************************
+
+Program written in Psychopy v.1.83. May work with later versions - untested.
+
+Program works best using a screen resolution of 1024x768. Stimuli may look out of proportion with other screen resolutions. Also optimised for a 60Hz refresh rate.
+
+This program is provided as-is, with no guarantees of support, successful performance, or any kind of useful outcome. By all means use it, adapt it, or add to it, but don’t blame us for any untoward or negative consequences that may result.
+
+Timing accuracy has been verified as within acceptable limits on our hardware (various Windows 7/8 boxes, and a 2015 MacBook Pro running OS X) but do your own timing checks people! Seriously. Check the timing if you’re going to be using this seriously.
+
+The structure of the program is a little unusual, with a ‘master’ trialSelection routine that selects what trial type to run on any given trial. This way of hacking conditional branching in the Psychopy Builder interface is described in more detail here: https://computingforpsychologists.wordpress.com/2013/11/12/how-to-hack-conditional-branching-in-the-psychopy-builder/
+
+The program starts with an instructions screen (which will wait infinitely) and which can be used to synchronise the start of the program with an MRI scanner. Ours outputs a keyboard ’t’ as the start signal, so that’s what it is. Press ’t’ to proceed manually.
+
+There are two versions (A and B). They are identical except the trial order is reversed in B, relative to A. There are separate .csv trial
+
+Any issues, email me: mbwall@gmail.com
